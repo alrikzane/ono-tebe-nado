@@ -1,1 +1,50 @@
-/* место для вашего кода */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 92px 24px;
+  font-weight: 400;
+}
+.header li{
+  text-underline-offset: 4px;
+}
+.navigation ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 392px;
+  list-style-type: circle;
+  font-size: 18px;
+}
+
+.nav-list li:first-child{
+  list-style-type: none;
+}
+
+.nav-list li:first-child a{
+  text-decoration: none;
+}
+.logo{
+  margin-right: 184px;
+}
+.logo img{
+  width: 130px;
+  height: 105px;
+}
+
+.contacts ul{
+  width: 240px;
+  height: 98px;
+}
+.contacts li{
+  list-style-type: none;
+}
+
+.contacts li p{
+  text-decoration: underline;
+  white-space: pre-wrap;
+}
+
+.contacts li:last-child p{
+  text-decoration: none;
+}
