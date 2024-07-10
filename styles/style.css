@@ -159,6 +159,8 @@
   font-size: 20px;
 }
 
+/* about */
+
 .about {
   height: 595px;
   display: grid;
@@ -214,4 +216,42 @@
 
 .info-text-smaller-spacing {
   letter-spacing: 0.0em;
+}
+
+/* footer */
+.footer {
+  margin: 180px 50px 88px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.navigation-footer {
+
+}
+.navigation-footer ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  list-style-type: none;
+  font-size: 18px;
+}
+
+.nav-list-footer li:first-child {
+  list-style-type: none;
+}
+
+.nav-list-footer li:first-child a {
+  text-decoration: none;
+}
+
+.socials-link-list {
+  display: flex;
+  gap: 48px;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+.socials-link-list li img {
+  height: 48px;
+  width: 48px;
 }
