@@ -1,1 +1,1 @@
-first learning project for yandex-practicum. Nothing fancy.
+https://github.com/alrikzane/ono-tebe-nado.git

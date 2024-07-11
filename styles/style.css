@@ -1,8 +1,8 @@
-.white-text{
+.white-text {
   color: #fff;
 }
 
-.uppercase{
+.uppercase {
   text-transform: uppercase;
 }
 
@@ -23,7 +23,7 @@
 .header li {
   text-underline-offset: 4px;
 }
-.navigation{
+.navigation {
   margin-left: 25px;
 }
 .navigation ul {
@@ -108,7 +108,6 @@
   line-height: 1;
   padding-left: 585px;
 }
-
 
 .cover-bottom {
   display: flex;
@@ -274,15 +273,14 @@
 }
 
 /* footer */
+
 .footer {
   margin: 180px 50px 88px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-.navigation-footer {
 
-}
 .navigation-footer ul {
   margin-right: 22px;
   display: flex;
