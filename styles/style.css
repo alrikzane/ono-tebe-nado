@@ -255,16 +255,20 @@
 .info-text p {
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.01em;
+  letter-spacing: 0.005em;
 }
 
 .info-text p:last-child {
-  letter-spacing: 0.01em;
   margin-top: 23px;
+  letter-spacing: 0.000em;
 }
 
 .info-text-smaller-spacing {
-  letter-spacing: -0.06em;
+  letter-spacing: 0.00em;
+}
+
+.info-text-bigger-spacing {
+  letter-spacing: 0.0052em;
 }
 
 /* footer */
@@ -278,8 +282,10 @@
 
 }
 .navigation-footer ul {
+  margin-right: 22px;
   display: flex;
   flex-direction: column;
+  align-items: center;
   justify-content: space-between;
   list-style-type: none;
   font-size: 18px;
@@ -291,6 +297,7 @@
 
 .nav-list-footer li:first-child a {
   text-decoration: none;
+  
 }
 
 .socials-link-list {
@@ -298,6 +305,10 @@
   gap: 48px;
   flex-direction: row;
   list-style-type: none;
+}
+
+.footer a {
+  text-underline-offset: 0.2em;
 }
 
 .socials-link-list li img {
