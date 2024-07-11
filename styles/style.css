@@ -148,8 +148,10 @@
 .deck-list {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   gap: 25px;
   margin: 0 24px;
+  max-width: 1100px;
 }
 
 .deck-item {
