@@ -31,21 +31,23 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 392px;
+  gap: 35px;
   list-style-type: circle;
   font-size: 18px;
 }
 
-.nav-list li:first-child {
+.nav-list li:active {
   list-style-type: none;
 }
 
-.nav-list li:first-child a {
+.nav-list li a:active {
   text-decoration: none;
 }
+
 .logo {
   margin-right: 150px;
 }
+
 .logo img {
   width: 130px;
   height: 105px;
@@ -53,7 +55,6 @@
 
 .contacts ul {
   width: 240px;
-  height: 98px;
   font-size: 18px;
   line-height: 1.35;
   margin-right: 25px;
@@ -74,9 +75,10 @@
   position: relative;
   top: 0;
   left: 0;
-  background-image: url("/images/cover.jpg");
+  background-image: url("../images/cover.jpg");
   background-size: cover;
-  height: 757px;
+  background-position: center;
+  min-height: 757px;
   z-index: -1
 }
 
@@ -84,10 +86,8 @@
   position: relative;
   top: 0;
   left: 0;
-  margin: 0 50px 237px;
+  margin: 0 0 135px 50px;
   padding-top: 165px;
-  height: 355px;
-  width: 1000px;
 }
 
 .main-title span {
@@ -100,30 +100,28 @@
 }
 
 .main-title-smaller-letter-spacing-left {
-  letter-spacing: 0.09em;
+  letter-spacing: 6px;
+}
+.main-title-bigger-letter-spacing {
+  letter-spacing: 60px;
 }
 
 .main-title-smaller-letter-spacing {
-  letter-spacing: 0.3em;
+  letter-spacing: 30px;
 }
-
-.main-title-bigger-letter-spacing {
-  letter-spacing: 0.58em;
-}
-
-
 
 .middle-line-main-title {
   display: block;
   text-align: center;
   line-height: 1.4;
+  padding-right: 45px;
 }
 
 .right-line-main-title {
+  padding-right: 19px;
   display: block;
   text-align: right;
   line-height: 1;
-  padding-left: 585px;
 }
 
 .cover-bottom {
@@ -133,8 +131,10 @@
   display: flex;
   justify-content: space-between;
   align-content: center;
-  margin: 300px 0 0 36px;
+  margin-left: 36px;
+  padding-bottom: 50px;
 }
+
 .cover-bottom h2 {
   margin-left: 42px;
   padding-top: 10px;
@@ -153,8 +153,9 @@
   height: 51px;
   margin-right: 50px;
   background-color: transparent;
-  border: 1px solid #fff;
+  border: 1px solid currentColor;
   font-size: 22px;
+  font-family: Raleway, sans-serif;
 }
 
 /* lots section */
@@ -182,8 +183,8 @@
   top: 0;
   left: 0;
   background-size: cover;
-  width: 334px;
-  height: 563px; 
+  background-position: center center;
+  width: 334px;   
 }
 
 .card h3 {
@@ -200,20 +201,20 @@
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
+  min-height: 563px;
   z-index: 1;
 }
 
 .film {
-  background-image: url("../images/card-lot-01.jpg");
-  background-position: center center;
+  background-image: url("../images/card-lot-01.jpg");  
 }
+
 .book {
   background-image: url("../images/card-lot-02.jpg");
-  background-position: center center;
 }
+
 .painting {
   background-image: url("../images/card-lot-03.jpg");
-  background-position: center center;
 }
 
 .card-title {
@@ -237,7 +238,6 @@
 /* about */
 
 .about {
-  height: 595px;
   display: grid;
   margin: 146px 24px 0;
   grid-template-columns: 359px 100%;
@@ -268,7 +268,7 @@
   flex-direction: column;
   margin-right: 24px;
   grid-column: 2;
-  grid-row: 1/2;
+  grid-row: 1/3;
   width: 693px;
 }
 
@@ -317,12 +317,12 @@
   font-size: 18px;
 }
 
-.nav-list-footer li:first-child {
+.nav-list-footer li {
   list-style-type: none;
 }
 
-.nav-list-footer li:first-child a {
-  text-decoration: none;  
+.nav-list-footer li a:active {
+  text-decoration: none;
 }
 
 .socials-link-list {
